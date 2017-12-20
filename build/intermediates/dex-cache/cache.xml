@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/isam/Desktop/android2/android_attendance-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/isam/Desktop/android2/android_attendance-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1840d945da14303569ceb641a4f7104790b1d265/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/isam/Desktop/android2/android_attendance-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="23cf90039e7e4b623be9348d7f9e5e298d8ea041">
+        <dex dex="/home/isam/Desktop/android2/android_attendance-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_743d9881c3cbca4d3bd23155e943d24f454f97a6/classes.dex" />
+    </item>
+
+</items>

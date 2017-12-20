@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sam.androidattendence.MainActivity">
+    <item
+        android:id="@+id/menu_View_Details"
+        android:orderInCategory="100"
+        android:title="View Details"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_Edit_Details"
+        android:orderInCategory="100"
+        android:title="Edit Details"
+        app:showAsAction="never" />
+</menu>

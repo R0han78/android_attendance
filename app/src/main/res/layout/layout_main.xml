@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout">
+
+
+    <RelativeLayout
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_action"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Details"
+            android:id="@+id/button_view_details"
+            android:layout_marginTop="74dp"
+            android:layout_below="@+id/button_submit_Attendance"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Personal Details"
+            android:id="@+id/button_edit_details"
+            android:layout_alignBaseline="@+id/button_view_details"
+            android:layout_alignBottom="@+id/button_view_details"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Edit Subject Details"
+            android:id="@+id/button_edit_subjects"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/button_check_attendance" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_show_subject"
+            android:layout_below="@+id/button_submit_Attendance"
+            android:layout_alignRight="@+id/button_submit_Attendance"/>
+
+        <Button
+            android:id="@+id/button_submit_Attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Attend"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="View Attendance"
+            android:id="@+id/button_check_attendance"
+            android:layout_below="@+id/button_edit_subjects"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_layout"
+        app:headerLayout="@layout/navigation_header"
+        android:layout_gravity="start"
+        android:id="@+id/navigation_view">
+
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
